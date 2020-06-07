@@ -37,6 +37,7 @@ sc = StandardScaler()
 
 X_test_filled[:,[1,4]] = sc.fit_transform(X_test_filled[:,[1,4]])
 
+################################################################################
 #loading in our trained SVM model
 import pickle
 loaded_model = pickle.load(open('gbc_model.sav', 'rb'))
@@ -50,3 +51,5 @@ df = df_test['Survived']
 df.value_counts()
 
 df.to_csv('df_TESTED.csv')
+
+#################################################################################
