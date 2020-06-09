@@ -1,0 +1,57 @@
+DELETE:
+
+Alley -
+FireplaceQu-
+PoolQC - 
+Fence - 
+MiscFeature -
+
+Affect Price:
+
+['MSZoning',
+'Street' ,
+'LandContour',
+'Utilities',
+'LandSlope',
+'Neighborhood',
+'Condition1',
+'Condition2',
+'BldgType',
+'HouseStyle',
+'OverallQual',
+'OverallCond',
+'YearBuilt',
+'YearRemodAdd',
+'Foundation',
+'BsmtCond',
+'TotalBsmtSF',
+'Heating',
+'HeatingQC',
+'CentralAir',
+'Electrical',
+'OverallSF' ,= 1stFlrSF+2ndFlrSF
+'TotalKitchens' ,= KitchenAbvGr
+'KitchenQual',
+'TotalRooms' ,= TotRmsAbvGrd
+'TotalBathRooms', = BsmtFullBath+BsmtHalfBath+FullBath+HalfBath
+'Functional',
+'Fireplaces',
+'GarageType',
+'GarageAge' ,= YrSold - GarageYrBlt
+'GarageArea',
+'GarageQual',
+'MiscFeature',
+'MiscVal',
+'MoSold',
+'YrSold',
+'SaleType',
+'SaleCondition',
+'SalePrice']
+
+
+
+
+
+
+
+
