@@ -27,3 +27,7 @@ updated_df = df[['MSZoning','Street' ,'LandContour','Utilities','LandSlope','Nei
 TotalHouseSF = np.array(TotalHouseSF)
 
 
+
+TotalBathRooms = df['BsmtFullBath'] + df['BsmtHalfBath'] + df['FullBath'] + df['HalfBath']
+TotalBathRooms = np.array(TotalBathRooms)
+
