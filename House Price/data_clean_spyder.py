@@ -31,3 +31,17 @@ TotalHouseSF = np.array(TotalHouseSF)
 TotalBathRooms = df['BsmtFullBath'] + df['BsmtHalfBath'] + df['FullBath'] + df['HalfBath']
 TotalBathRooms = np.array(TotalBathRooms)
 
+updated_df.info()
+updated_df['SaleType'].dtype
+
+updated_df[['GarageType', 'GarageQual']] = updated_df[['GarageType', 'GarageQual']].apply(lambda x: x.fillna('NoGarage'))
+
+
+
+
+
+
+
+
+
+
